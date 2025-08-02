@@ -3,7 +3,7 @@ def no_words(text):
     text = text.replace(",", " ").replace(".", " ").replace("!", " ").replace("?", " ").replace(":", " ").replace(";", " ").replace("_", " ")
     num_words = len(text.split(" "))
      
-    return "Found 75767 total words"
+    return f"Found {new_words} total words"
 
 def generate_dict(text):
     """Generates a dictionary of words and their counts."""
